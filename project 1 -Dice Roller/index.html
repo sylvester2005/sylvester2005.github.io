@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll the Dice</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 50px;
+        }
+        .play-button {
+            background-color: #0f0;
+            color: #000;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        .play-button:hover {
+            background-color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <h1>ROLL THE DICE</h1>
+    <button class="play-button" onclick="window.location.href='dice.html'">Play</button>
+</body>
+</html>

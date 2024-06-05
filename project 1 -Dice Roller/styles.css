@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(242, 238, 238);
+    margin-top:200px;
+}
+
+#container{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 60px;
+    box-shadow: 5px 5px 15px rgb(147, 146, 146);
+}
+
+
+#textbox{
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+#rollbtn{
+    color:white;
+    background-color: hsl(240, 87%, 58%);
+    font-size: 1.5em;
+    border: solid hsl(240, 87%, 58%);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color,color,border-color 1.5s;
+}
+
+#rollbtn:hover{
+    background-color: white;
+    color: hsl(240, 87%, 58%);
+    border-color: hsl(240, 87%, 58%);
+}
+
+#rollbtn:active{
+    background-color: rgb(240, 238, 238);
+    color:hsla(240, 100%, 50%, 0.3) ;
+    border-color:hsla(240, 100%, 50%, 0.3);
+}
+
+#label1{
+    font-size: 1.5em;
+}
+
+
+#diceImage img{
+    width: 100px;
+    margin: 5px;
+}
